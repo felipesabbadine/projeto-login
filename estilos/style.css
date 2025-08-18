@@ -2,8 +2,33 @@
 
 /*
     Paleta de cores:
-    
+
     Vermelho: #E1285B
     Branco: #DDD7D2
     Azul: #32D4E0
 */
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #E1285B, #DDD7D2, #32D4E0);
+    background-size: contain;
+
+}
+
+main {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}

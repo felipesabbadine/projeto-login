@@ -15,18 +15,29 @@
 
     section#login {
         width: 90vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
 
     section#login > div#login {
-        float: right;
+        float: left;
         width: 70%;
     }
+
+    div.campo > input {
+    background-color: #eb6289;
+    font-size: 2em;
+    width:calc(100% -46px);
+    transform: translateY(-7px);
+    height: 100%;
+    border: 0px;
+    border-radius: 10px;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -49,4 +60,14 @@
         width: 50%;
         font-size: 1.2em;
     }
+
+    div.campo > input {
+    background-color: #eb6289;
+    font-size: 2em;
+    width:calc(100% -46px);
+    transform: translateY(-10px);
+    height: 100%;
+    border: 0px;
+    border-radius: 10px;
+}
 }
